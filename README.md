@@ -4,8 +4,8 @@
 
 | Weeks | Contents | Q&A |
 | :---: | :------: | :-: |
-| Week1 | Command Line Basics and Python | |
-| Week2 | Command Line Basics and C | TBR |
+| Week1 | [Command Line Basics](./weeks/week1/note.md) | |
+| Week2 | Command Line Basics Cont. | TBR |
 | Week3 | Other Tools and Shell Scripting | |
 | Week4 | Tools for C (and other languages) | TBR |
 | Week5 | Algorithms: Sort and Search (and Paper) |
@@ -23,7 +23,7 @@
 | Week17 | Algorithms: Dynamic Programming | |
 | Week18 | Algorithms: Greedy | TBR |
 | Week19 | Design Patterns | |
-| Week20 | Why don't we have some math? | TBR |
+| Week20 | `Special` | TBR |
 
 Links will be updated every week.
 
