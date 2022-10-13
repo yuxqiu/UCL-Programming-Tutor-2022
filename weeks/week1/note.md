@@ -103,7 +103,9 @@
 
 ## Command Line
 
-> Parts of this section are excerpted from [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/startingcommands.html)
+> This section is inspired by [Welcome to Linux command line for you and me!]
+
+[Welcome to Linux command line for you and me!]: https://lym.readthedocs.io/en/latest/index.html "Welcome to Linux command line for you and me!"
 
 The following contents are only for Unix-like OS. Some of them are exclusively for Linux.
 
@@ -168,7 +170,7 @@ The following contents are only for Unix-like OS. Some of them are exclusively f
    - How does `traceroute` work?
 2. DNS and its lookup rules
    - What happens when we visit a website?
-   - Recursive Lookup ![](./attachments/image/dns.png)
+   - Recursive Lookup ![](./attachments/image/dns.png) (from [AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW])
    - `dig` with example
 3. hosts file
    - What is `hosts`?
@@ -177,10 +179,7 @@ The following contents are only for Unix-like OS. Some of them are exclusively f
       - Mac: `/etc/hosts`
 
 
-## References
-
-1. [Welcome to Linux command line for you and me!](https://lym.readthedocs.io/en/latest/index.html)
-2. [AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW](https://www.dnsfilter.com/blog/authoritative-vs-recursive-dns)
+[AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW]: https://www.dnsfilter.com/blog/authoritative-vs-recursive-dns "AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW"
 
 ## License
 
