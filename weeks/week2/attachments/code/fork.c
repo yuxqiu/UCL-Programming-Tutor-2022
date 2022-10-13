@@ -12,7 +12,7 @@ int main(void) {
     return EXIT_FAILURE;
   } else if (child == 0) { // child part
     puts("I am a child");
-    sleep(10); // sleep 5 seconds
+    sleep(10); // sleep 10 seconds
     puts("Child exit");
   } else {
     puts("I am waiting for child");

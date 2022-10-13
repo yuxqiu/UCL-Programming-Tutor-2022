@@ -5,23 +5,23 @@
 | Weeks | Contents | Q&A |
 | :---: | :------: | :-: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) | |
-| Week2 | [Command Line Basics Cont.](./weeks/week2/note.md) | TBR |
+| Week2 | [Command Line Basics Cont.](./weeks/week2/note.md) | |
 | Week3 | Other Tools and Shell Scripting | |
 | Week4 | Tools for C (and other languages) | TBR |
-| Week5 | Algorithms: Sort and Search (and Paper) |
-| Week6 | Paper Continued | TBR |
-| Week7 | Network Basics | | |
+| Week5 | Algorithms: Sort and Search (and Paper) | |
+| Week6 | Paper Continued | |
+| Week7 | Network Basics | |
 | Week8 | Functional Programming: Haskell and Others | TBR |
 | Week9 | Delve deeper into FP (A Real Project) | |
-| Week10 | Continue + Q&A + Prepare for holiday :) | TBR |
+| Week10 | Continue + Q&A + Prepare for holiday :) | |
 | Week11 | Frontend Basics | |
 | Week12 | Backend Basics | TBR |
 | Week13 | Basic C++ and C++ vs. C | |
-| Week14 | Ideas behind Modern C++ and STL | TBR |
+| Week14 | Ideas behind Modern C++ and STL | |
 | Week15 | Java vs. C++ | |
 | Week16 | Can we be safer? | TBR |
 | Week17 | Algorithms: Dynamic Programming | |
-| Week18 | Algorithms: Greedy | TBR |
+| Week18 | Algorithms: Greedy | |
 | Week19 | Design Patterns | |
 | Week20 | `Special` | TBR |
 
