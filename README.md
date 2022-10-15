@@ -5,25 +5,25 @@
 | Weeks | Contents | Q&A |
 | :---: | :------: | :-: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) | |
-| Week2 | [Command Line Basics Cont.](./weeks/week2/note.md) | |
-| Week3 | Other Tools and Shell Scripting | |
-| Week4 | Tools for C (and other languages) | TBR |
-| Week5 | Algorithms: Sort and Search (and Paper) | |
-| Week6 | Paper Continued | |
-| Week7 | Network Basics | |
-| Week8 | Functional Programming: Haskell and Others | TBR |
-| Week9 | Delve deeper into FP (A Real Project) | |
-| Week10 | Continue + Q&A + Prepare for holiday :) | |
-| Week11 | Frontend Basics | |
-| Week12 | Backend Basics | TBR |
-| Week13 | Basic C++ and C++ vs. C | |
-| Week14 | Ideas behind Modern C++ and STL | |
-| Week15 | Java vs. C++ | |
-| Week16 | Can we be safer? | TBR |
-| Week17 | Algorithms: Dynamic Programming | |
-| Week18 | Algorithms: Greedy | |
-| Week19 | Design Patterns | |
-| Week20 | `Special` | TBR |
+| Week2 | No lecture this week | |
+| Week3 | [Command Line Basics Cont.](./weeks/week2/note.md) | |
+| Week4 | Other Tools and Shell Scripting | |
+| Week5 | Tools for C (and other languages) | TBR |
+| Week6 | Algorithms: Sort and Search (and Paper) | |
+| Week7 | Paper Continued | |
+| Week8 | Network Basics | |
+| Week9 | Functional Programming: Haskell and Others | TBR |
+| Week10 | Delve deeper into FP (A Real Project) | |
+| Week11 | Continue + Q&A + Prepare for holiday :) | |
+| Week12 | Frontend Basics | |
+| Week13 | Backend Basics | TBR |
+| Week14 | Basic C++ and C++ vs. C | |
+| Week15 | Ideas behind Modern C++ and STL | |
+| Week16 | Java vs. C++ | |
+| Week17 | Can we be safer? | TBR |
+| Week18 | Algorithms: Dynamic Programming | |
+| Week19 | Algorithms: Greedy | |
+| Week20 | Design Patterns | |
 
 Links will be updated every week.
 
