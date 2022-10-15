@@ -5,8 +5,8 @@
 | Weeks | Contents | Q&A |
 | :---: | :------: | :-: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) | |
-| Week2 | No lecture this week | |
-| Week3 | [Command Line Basics Cont.](./weeks/week2/note.md) | |
+| Week2 | [No lecture this week](./weeks/week2/note.md) | |
+| Week3 | [Command Line Basics Cont.](./weeks/week3/note.md) | |
 | Week4 | Other Tools and Shell Scripting | |
 | Week5 | Tools for C (and other languages) | TBR |
 | Week6 | Algorithms: Sort and Search (and Paper) | |
