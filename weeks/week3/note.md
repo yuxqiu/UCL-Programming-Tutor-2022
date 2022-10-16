@@ -112,37 +112,47 @@
     - See [Pausing and backgrounding processes](https://missing.csail.mit.edu/2020/command-line)
     - Plus and Minus Sign: [What do those +/- mean if linux job in background finishes (started with &)](https://superuser.com/questions/559211/what-do-those-mean-if-linux-job-in-background-finishes-started-with)
 2. Dotfiles
+    - How to manage your dotfiles
 3. Aliases
     - How to set an alias?
     - How to unset an alias?
 4. Command Substitution
     - Why we need it?
     - How to use it?
+    - Behind the substitution: how does shell execute it?
 5. Globbing
+    - Globbing Patterns (applicable for shell, `find`...)
 
 
 ## Random Stuff
 
 1. `which`
 2. Differences between `.bashrc` and `.bash_profile`
-    - Login Shell vs. Non-Login Shell
-    - Read order of the configuration file
+    - Login Shell vs. Non-Login Shell (Demo)
+    - Interactive Shell vs. Non-interactive Shell (Demo)
+    - Read order of the configuration file (`man bash` or `man zsh`)
     - Read [Difference between Login Shell and Non-Login Shell?](https://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell) for more details
-3. she-bang
+    - What happens when we execute the shell in non-interactive mode?
+        - Hidden Input: Environment Variable
+        - Security Issue
+3. shebang / hashbang
     - What is a scripting language?
+    - What happens with/without shebang? (Demo)
 4. `less`
     - Run command: Save content to files
 5. `time` command
+    - How to read the information in `time`
 
 
 ## Exercises
 
 1. Count the number of lines in the file `/usr/share/dict/words`
-2. [Leetcode: Word Frequency](https://leetcode.com/problems/word-frequency/)
-3. Use only the tools from 1-8 in Data Wrangling session to find the first version number in awk example. (See `./others/q3.txt`)
-4. Find the number of words (in `/usr/share/dict/words`) that contain two consecutive as. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
-5. Find the number of words (in `/usr/share/dict/words`) that contain at least three as and don’t have a 's ending. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
-6. [Leetcode: Tenth Line](https://leetcode.com/problems/tenth-line/)
+2. Can you extract the path in PATH env variable: print each path in a new line. (Inspired by Jessie)
+3. [Leetcode: Word Frequency](https://leetcode.com/problems/word-frequency/)
+4. Use only the tools from 1-8 in Data Wrangling session to find the first version number in awk example. (See `./others/q3.txt`)
+5. Find the number of words (in `/usr/share/dict/words`) that contain two consecutive as. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
+6. Find the number of words (in `/usr/share/dict/words`) that contain at least three as and don’t have a 's ending. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
+7. [Leetcode: Tenth Line](https://leetcode.com/problems/tenth-line/)
 
 
 ## License
