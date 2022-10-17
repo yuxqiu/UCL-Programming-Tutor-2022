@@ -9,6 +9,14 @@
 
 ## Before we start
 
+0. Why C? Why pointers?
+
+> Heck, in 1900, Latin and Greek were required subjects in college, not because they served any purpose, but because they were sort of considered an obvious requirement for educated people. ... Are pointers and recursion the Latin and Greek of Computer Science?
+>
+> Joel Spolsky, [The Perils of JavaSchools]
+
+[The Perils of JavaSchools]: https://www.joelonsoftware.com/2005/12/29/the-perils-of-javaschools-2/ "The Perils of JavaSchools"
+
 1. What is a pointer?
     - Size of data type
     - Why is it useful?
