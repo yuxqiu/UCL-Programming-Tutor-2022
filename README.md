@@ -14,16 +14,16 @@
 | Week8 | Network Basics |
 | Week9 | Functional Programming: Haskell and Others |
 | Week10 | Delve deeper into FP (A Real Project) |
-| Week11 | Continue + Q&A + Prepare for holiday :) |
-| Week12 | Frontend Basics |
-| Week13 | Backend Basics |
-| Week14 | Basic C++ and C++ vs. C |
-| Week15 | Ideas behind Modern C++ and STL |
-| Week16 | Java vs. C++ |
-| Week17 | Can we be safer? |
-| Week18 | Algorithms: Dynamic Programming |
-| Week19 | Algorithms: Greedy |
-| Week20 | Design Patterns |
+| Week11 | Frontend Basics |
+| Week12 | Backend Basics |
+| Week13 | Basic C++ and C++ vs. C |
+| Week14 | Ideas behind Modern C++ and STL |
+| Week15 | Java vs. C++ |
+| Week16 | Can we be safer? |
+| Week17 | Algorithms: Dynamic Programming |
+| Week18 | Algorithms: Greedy |
+| Week19 | `Special` |
+| Week20 | `Special` |
 
 Links will be updated every week.
 
