@@ -9,7 +9,7 @@
 | Week3 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | |
 | Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | |
 | Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | TBR |
-| Week6 | Other Tools and Shell Scripting Cont. | |
+| Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week6/note.md) | |
 | Week7 | Tools for C (and other languages) | |
 | Week8 | Network Basics | |
 | Week9 | Functional Programming: Haskell and Others | TBR |
