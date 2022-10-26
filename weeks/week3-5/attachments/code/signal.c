@@ -14,7 +14,7 @@ void handler(int i) {
 
 int main(void) {
   // This code is not compatible.
-  signal(SIGINT, handler);
+  signal(SIGINT, &handler);
 
   getchar();
 

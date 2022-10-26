@@ -6,11 +6,11 @@
 | :---: | :------: | :-: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) | |
 | Week2 | [No lecture this week](./weeks/week2/note.md) | |
-| Week3 | [Command Line Basics Cont.](./weeks/week3/note.md) | |
-| Week4 | Other Tools and Shell Scripting | |
-| Week5 | Tools for C (and other languages) | TBR |
-| Week6 | Algorithms: Sort and Search (and Paper) | |
-| Week7 | Paper Continued | |
+| Week3 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | |
+| Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | |
+| Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) | TBR |
+| Week6 | Other Tools and Shell Scripting Cont. | |
+| Week7 | Tools for C (and other languages) | |
 | Week8 | Network Basics | |
 | Week9 | Functional Programming: Haskell and Others | TBR |
 | Week10 | Delve deeper into FP (A Real Project) | |
@@ -30,8 +30,6 @@ Links will be updated every week.
 ## Usage
 
 The materials used every week are inside the `weeks` folder. Every week, we have a markdown and pdf version of the notes with some additional materials (if there are any).
-
-The `questions` folder has the released markdown and pdf version of the Q&A. The release happens every two weeks.
 
 ## Licence
 
