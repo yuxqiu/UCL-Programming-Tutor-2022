@@ -4,7 +4,7 @@
 
 > This section is inspired by [Markdown Guide - Basic Syntax].
 
-[Markdown Guide - Basic Syntax]: https://www.markdownguide.org/basic-syntax/#adding-elements-in-lists "Markdown Guide - Basic Syntax"
+[Markdown Guide - Basic Syntax]: https://www.markdownguide.org/basic-syntax "Markdown Guide - Basic Syntax"
 
 0. Philosophy
     - Easy-to-read and Easy-to-write
@@ -41,7 +41,8 @@
     - Reference-style Links
 10. Images
     - Adding Titles
-11. Escaping Characters
+11. Math Mode
+12. Escaping Characters
 
 
 ## Git
@@ -89,7 +90,7 @@
 
 > This section is inspired by [Shell Scripting for Beginners – How to Write Bash Scripts in Linux].
 
-[Shell Scripting for Beginners – How to Write Bash Scripts in Linux]: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux] "Shell Scripting for Beginners – How to Write Bash Scripts in Linux"
+[Shell Scripting for Beginners – How to Write Bash Scripts in Linux]: https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux "Shell Scripting for Beginners – How to Write Bash Scripts in Linux"
 
 0. Shebang revisited
 1. Declare variables in Shell
