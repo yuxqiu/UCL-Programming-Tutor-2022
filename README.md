@@ -5,7 +5,7 @@
 | Weeks | Contents |
 | :---: | :------: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) |
-| Week2 | [No lecture this week](./weeks/week2/note.md) |
+| Week2 | [Q&A](./weeks/week2/note.md) |
 | Week3 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |

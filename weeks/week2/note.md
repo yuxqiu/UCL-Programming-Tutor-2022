@@ -1,5 +1,3 @@
 # Week3
 
-## Q&A
-
-No lecture this week.
+We only have Q&A this week.
