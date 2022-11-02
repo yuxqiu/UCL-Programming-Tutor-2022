@@ -117,6 +117,7 @@
 ## Command-line environment
 
 1. Jobs
+    - `jobs`, `fg`, `bg`
     - See [Pausing and backgrounding processes](https://missing.csail.mit.edu/2020/command-line)
     - Plus and Minus Sign: [What do those +/- mean if linux job in background finishes (started with &)](https://superuser.com/questions/559211/what-do-those-mean-if-linux-job-in-background-finishes-started-with)
 2. Dotfiles
@@ -147,7 +148,7 @@
     - What is a scripting language?
     - What happens with/without shebang? (Demo)
 4. `less`
-    - Run command: Save content to files
+    - [Save content to file](https://superuser.com/questions/290908/how-can-i-save-the-current-contents-of-less-to-a-file)
 5. `time` command
     - How to read the information in `time`
 
@@ -160,7 +161,7 @@
 4. Use only the tools from 1-8 in Data Wrangling session to find the first version number in awk example. (See `./others/q3.txt`)
 5. Find the number of words (in `/usr/share/dict/words`) that contain two consecutive as. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
 6. Find the number of words (in `/usr/share/dict/words`) that contain at least three as and don’t have a 's ending. What are the three most common last two letters of those words? How many of those two-letter combinations are there?
-7. [Leetcode: Tenth Line](https://leetcode.com/problems/tenth-line/)
+7. Optional: [Leetcode: Tenth Line](https://leetcode.com/problems/tenth-line/)
 
 
 ## License
