@@ -63,12 +63,12 @@
         ![](./attachments/image/vcs-2.png)
 2. Brief Introduction to Git
     - Repositories and working copies
-3. [Model of Git](https://missing.csail.mit.edu/2020/version-control/###Git%E2%80%99s%20data%20model:~:text=underlying%20data%20model.-,Git%E2%80%99s%20data%20model,-There%20are%20many)
+3. [Model of Git](https://missing.csail.mit.edu/2020/version-control/)
     - Snapshot
-    - Linear History
-    - Data model, as pseudocode
-    - sha1
-    - Master and HEAD
+    - Linear History (Directed Acyclic Graph)
+    - Data model
+    - Hash Function: sha1
+    - References: Master and HEAD
     - Staging Area
 4. Git commands
     - Basics
@@ -76,6 +76,7 @@
     - Remotes
     - Undo
 5. Advanced Commands
+    - `git add -p`
     - `blame`
     - `rebase`
     - `stash`
