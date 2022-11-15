@@ -10,7 +10,7 @@
 | Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week6/note.md) |
-| Week7 | Tools for C (and other languages) |
+| Week7 | [Tools for C and How to write good code](./weeks/week7/note.md) |
 | Week8 | Network Basics |
 | Week9 | Functional Programming: Haskell and Others |
 | Week10 | Delve deeper into FP (A Real Project) |
