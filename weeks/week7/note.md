@@ -2,9 +2,15 @@
 
 ## Compilers
 
-0. Overview of Compilers: gcc, clang, msvc, icc...
-1. An absolute minimum for all C/C++ programmers: `-Wall -Werror -Wextra -Wpedantic -Wconversion`
-2. A useful place to inspect your code: Compiler Explorer
+1. Overview of Compilers: gcc, clang, msvc, icc...
+2. An absolute minimum for all C/C++ programmers: `-Wall -Werror -Wextra -Wpedantic -Wconversion`
+    - Wall: all the warnings?
+    - Werror: treat warnings as errors
+    - Wextra: some extra warnings
+    - Wpedantic: no language extension
+    - Wconversion: no implicit conversion that loses information
+3. Some extra warnings that I recommend: `-Wshadow -Wunused`
+4. A useful place to inspect your code: Compiler Explorer
     - Benefits of using multiple compilers
 
 ## Debugger

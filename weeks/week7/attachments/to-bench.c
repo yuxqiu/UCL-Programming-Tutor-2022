@@ -9,13 +9,13 @@ int AddN(int num, int n) {
 
 int Logic(int num, int m) {
   for (int i = 0; i < m; ++i) {
-    num = AddN(num, 10000);
+    num = AddN(num, 100000);
   }
   return num;
 }
 
 // Task: add a number by 10^8
 int main(void) {
-  Logic(0, 10000);
+  Logic(0, 100000);
   return 0;
 }
