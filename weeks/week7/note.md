@@ -63,6 +63,9 @@
 ## Code Coverage
 
 1. `gcov` + `lcov` + `genhtml`
+2. `kcov`
+    - a much easier-to-use code coverage report generator
+    - but it's very slow compared with the tools listed above ([at least in MacOS](https://github.com/SimonKagstrom/kcov/issues/356))
 
 ## Benchmarking
 
