@@ -5,7 +5,7 @@
 | Weeks | Contents |
 | :---: | :------: |
 | Week1 | [Command Line Basics](./weeks/week1/note.md) |
-| Week2 | [Q&A](./weeks/week2/note.md) |
+| Week2 | Q&A |
 | Week3 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
 | Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
@@ -31,6 +31,6 @@ Links will be updated every week.
 
 The materials used every week are inside the `weeks` folder. Every week, we have a markdown and pdf version of the notes with some additional materials (if there are any).
 
-## Licence
+## License
 
-[MIT Licence](./LICENSE)
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
