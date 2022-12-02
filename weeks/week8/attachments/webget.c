@@ -1,14 +1,14 @@
-#include <netdb.h> // for addrinfo
-#include <stdio.h> // for fprintf, printf
-#include <stdlib.h> // for exit, EXIT_FAILURE, EXIT_SUCCESS
-#include <string.h> // for strlen
-#include <sys/errno.h> // for errno and strerrno
+#include <netdb.h>      // for addrinfo
+#include <stdio.h>      // for fprintf, printf
+#include <stdlib.h>     // for exit, EXIT_FAILURE, EXIT_SUCCESS
+#include <string.h>     // for strlen
+#include <sys/errno.h>  // for errno and strerrno
 #include <sys/socket.h> // for socket and connect
-#include <unistd.h> // for close
+#include <unistd.h>     // for close
 
 #define BUFFER_SIZE 4096
 
-void GetPage(const char *host, const char *path);
+static void GetPage(const char *host, const char *path);
 
 int main(const int argc, const char *argv[]) {
   if (argc != 3) {
@@ -24,8 +24,8 @@ int main(const int argc, const char *argv[]) {
 }
 
 // Adopted from CMU 15213
-void Getaddrinfo(const char *node, const char *service,
-                 const struct addrinfo *hints, struct addrinfo **res) {
+static void Getaddrinfo(const char *node, const char *service,
+                        const struct addrinfo *hints, struct addrinfo **res) {
   int rc;
   if ((rc = getaddrinfo(node, service, hints, res)) != 0) {
     fprintf(stderr, "Getaddrinfo: %s\n", gai_strerror(rc));
@@ -34,7 +34,7 @@ void Getaddrinfo(const char *node, const char *service,
 }
 
 // Adopted from CMU 15213
-void Close(int fd) {
+static void Close(int fd) {
   int rc;
 
   if ((rc = close(fd)) < 0) {
@@ -44,7 +44,7 @@ void Close(int fd) {
 }
 
 // Adopted from CMU 15213
-int GetClientFd(const char *hostname, const char *port) {
+static int GetClientFd(const char *hostname, const char *port) {
   int clientfd;
   struct addrinfo hints = {0}, *listp, *p;
 
@@ -78,7 +78,7 @@ int GetClientFd(const char *hostname, const char *port) {
 // Never use this code in reality
 // The return value of write needs to be checked to ensure content is
 // successfully written
-void SendRequest(int fd, const char *host, const char *path) {
+static void SendRequest(int fd, const char *host, const char *path) {
   const char *request_line_one_start = "GET ";
   const char *request_line_one_end = " HTTP/1.1\r\n";
   const char *request_line_two_start = "Host: ";
@@ -97,7 +97,7 @@ void SendRequest(int fd, const char *host, const char *path) {
 //
 // Very Inefficient
 // and Return NULL should be considered as a bad design?
-char *GetResponse(int fd) {
+static char *GetResponse(int fd) {
   static char buffer[BUFFER_SIZE];
   ssize_t rc = read(fd, buffer, BUFFER_SIZE - 1);
   if (rc > 0) {
@@ -112,8 +112,8 @@ char *GetResponse(int fd) {
   return NULL;
 }
 
-void GetPage(const char *host, const char *path) {
-  int client_fd = GetClientFd(host, "http");
+static void GetPage(const char *host, const char *path) {
+  int client_fd = GetClientFd(host, "80");
   if (client_fd == -1) {
     fputs("GetPage: failed to get client fd", stderr);
     exit(EXIT_FAILURE);
