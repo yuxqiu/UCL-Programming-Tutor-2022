@@ -12,8 +12,8 @@
 | Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week6/note.md) |
 | Week7 | [Tools for C and How to write good code](./weeks/week7/note.md) |
 | Week8 | [Network Basics](./weeks/week8/note.md) |
-| Week9 | Functional Programming: Haskell and Others |
-| Week10 | Delve deeper into FP (A Real Project) |
+| Week9 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
+| Week10 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
 | Week11 | Frontend Basics |
 | Week12 | Backend Basics |
 | Week13 | Basic C++ and C++ vs. C |
@@ -29,7 +29,7 @@ Links will be updated every week.
 
 ## Usage
 
-The materials used every week are inside the `weeks` folder. Every week, we have a markdown and pdf version of the notes with some additional materials (if there are any).
+The materials used every week are inside the `weeks` folder. Every week, we have a markdown of the notes with some additional materials (if there are any).
 
 ## License
 
