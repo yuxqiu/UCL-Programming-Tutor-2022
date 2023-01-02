@@ -1,4 +1,5 @@
-#include <netdb.h>      // for addrinfo
+#include <netdb.h> // for addrinfo
+#include <stddef.h>
 #include <stdio.h>      // for fprintf, printf
 #include <stdlib.h>     // for exit, EXIT_FAILURE, EXIT_SUCCESS
 #include <string.h>     // for strlen
@@ -7,6 +8,11 @@
 #include <unistd.h>     // for close
 
 #define BUFFER_SIZE 4096
+
+struct ResponseStr {
+  char *msg_;
+  size_t size_;
+};
 
 static void GetPage(const char *host, const char *path);
 
@@ -97,19 +103,21 @@ static void SendRequest(int fd, const char *host, const char *path) {
 //
 // Very Inefficient
 // and Return NULL should be considered as a bad design?
-static char *GetResponse(int fd) {
+static struct ResponseStr GetResponse(int fd) {
   static char buffer[BUFFER_SIZE];
-  ssize_t rc = read(fd, buffer, BUFFER_SIZE - 1);
+  ssize_t rc = read(fd, buffer, BUFFER_SIZE);
   if (rc > 0) {
-    buffer[rc] = '\0';
-    return buffer;
+    struct ResponseStr response = {buffer, (size_t)rc};
+    return response;
   } else if (rc < 0) {
     // neglect EINTR here for convenience
     // shouldn't do this in real world
     fprintf(stderr, "GetResponse: %s\n", strerror(errno));
     exit(EXIT_FAILURE);
   }
-  return NULL;
+
+  struct ResponseStr response = {NULL, 0};
+  return response;
 }
 
 static void GetPage(const char *host, const char *path) {
@@ -120,9 +128,9 @@ static void GetPage(const char *host, const char *path) {
   }
 
   SendRequest(client_fd, host, path);
-  char *content;
-  while ((content = GetResponse(client_fd)) != NULL) {
-    puts(content);
+  for (struct ResponseStr response = GetResponse(client_fd);
+       response.msg_ != NULL; response = GetResponse(client_fd)) {
+    fwrite(response.msg_, sizeof(char), response.size_, stdout);
   }
 
   Close(client_fd);
