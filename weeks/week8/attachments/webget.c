@@ -9,10 +9,10 @@
 
 #define BUFFER_SIZE 4096
 
-struct ResponseStr {
+typedef struct {
   char *msg_;
   size_t size_;
-};
+} ResponseStr;
 
 static void GetPage(const char *host, const char *path);
 
@@ -103,21 +103,18 @@ static void SendRequest(int fd, const char *host, const char *path) {
 //
 // Very Inefficient
 // and Return NULL should be considered as a bad design?
-static struct ResponseStr GetResponse(int fd) {
+static ResponseStr GetResponse(int fd) {
   static char buffer[BUFFER_SIZE];
   ssize_t rc = read(fd, buffer, BUFFER_SIZE);
   if (rc > 0) {
-    struct ResponseStr response = {buffer, (size_t)rc};
-    return response;
+    return (ResponseStr){buffer, (size_t)rc};
   } else if (rc < 0) {
     // neglect EINTR here for convenience
     // shouldn't do this in real world
     fprintf(stderr, "GetResponse: %s\n", strerror(errno));
     exit(EXIT_FAILURE);
   }
-
-  struct ResponseStr response = {NULL, 0};
-  return response;
+  return (ResponseStr){NULL, 0};
 }
 
 static void GetPage(const char *host, const char *path) {
@@ -128,8 +125,8 @@ static void GetPage(const char *host, const char *path) {
   }
 
   SendRequest(client_fd, host, path);
-  for (struct ResponseStr response = GetResponse(client_fd);
-       response.msg_ != NULL; response = GetResponse(client_fd)) {
+  for (ResponseStr response = GetResponse(client_fd); response.msg_ != NULL;
+       response = GetResponse(client_fd)) {
     fwrite(response.msg_, sizeof(char), response.size_, stdout);
   }
 
