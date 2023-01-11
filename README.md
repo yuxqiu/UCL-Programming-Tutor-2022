@@ -14,7 +14,7 @@
 | Week8 | [Network Basics](./weeks/week8/note.md) |
 | Week9 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
 | Week10 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
-| Week11 | Frontend Basics |
+| Week11 | [Frontend Basics](./weeks/week11/note.md) |
 | Week12 | Backend Basics |
 | Week13 | Basic C++ and C++ vs. C |
 | Week14 | Ideas behind Modern C++ and STL |

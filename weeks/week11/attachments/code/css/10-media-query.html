@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>This is the title!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: pink;
+            border: 5px solid black;
+            width: 50px;
+            height: 50px;
+        }
+
+        @media (max-width: 991px) {
+            .box {
+                background-color: cornflowerblue;
+            }
+        }
+
+        @media print {
+            .box {
+                background-color: darkseagreen;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <p>Pink in large screen. Blue in small and medium screen. Green when printing.</p>
+</body>
+
+</html>
