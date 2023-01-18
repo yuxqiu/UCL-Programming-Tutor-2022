@@ -9,7 +9,7 @@
 | Week3 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
 | Week4 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
 | Week5 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
-| Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week6/note.md) |
+| Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week06/note.md) |
 | Week7 | [Tools for C and How to write good code](./weeks/week07/note.md) |
 | Week8 | [Network Basics](./weeks/week08/note.md) |
 | Week9 | [Functional Programming (A Real Project)](./weeks/week09-10/note.md) |
