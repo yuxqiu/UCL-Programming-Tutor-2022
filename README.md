@@ -4,16 +4,16 @@
 
 | Weeks | Contents |
 | :---: | :------: |
-| Week1 | [Command Line Basics](./weeks/week1/note.md) |
+| Week1 | [Command Line Basics](./weeks/week01/note.md) |
 | Week2 | Q&A |
-| Week3 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
-| Week4 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
-| Week5 | [Command Line Basics Cont.](./weeks/week3-5/note.md) |
+| Week3 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
+| Week4 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
+| Week5 | [Command Line Basics Cont.](./weeks/week03-05/note.md) |
 | Week6 | [Other Tools and Shell Scripting Cont.](./weeks/week6/note.md) |
-| Week7 | [Tools for C and How to write good code](./weeks/week7/note.md) |
-| Week8 | [Network Basics](./weeks/week8/note.md) |
-| Week9 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
-| Week10 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
+| Week7 | [Tools for C and How to write good code](./weeks/week07/note.md) |
+| Week8 | [Network Basics](./weeks/week08/note.md) |
+| Week9 | [Functional Programming (A Real Project)](./weeks/week09-10/note.md) |
+| Week10 | [Functional Programming (A Real Project)](./weeks/week09-10/note.md) |
 | Week11 | [Frontend Basics](./weeks/week11/note.md) |
 | Week12 | [Backend Basics](./weeks/week12/notes.md) |
 | Week13 | Basic C++ and C++ vs. C |
