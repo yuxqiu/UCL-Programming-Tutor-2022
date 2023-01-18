@@ -17,13 +17,13 @@
     ```
 5. An example of a HTTP 1.1 response
 
-    ```http
+    ```
     HTTP/1.1 200 OK
     Connection: close
     Content-Length: 29769
     Content-Type: text/html
 
-    <!DOCTYPE html>… (here come the 29769 bytes of the requested web page)
+    <!DOCTYPE html> (here come the 29769 bytes of the requested web page)
     ```
 
 6. Syntax of the HTTP requests
