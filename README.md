@@ -15,7 +15,7 @@
 | Week9 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
 | Week10 | [Functional Programming (A Real Project)](./weeks/week9-10/note.md) |
 | Week11 | [Frontend Basics](./weeks/week11/note.md) |
-| Week12 | Backend Basics |
+| Week12 | [Backend Basics](./weeks/week12/notes.md) |
 | Week13 | Basic C++ and C++ vs. C |
 | Week14 | Ideas behind Modern C++ and STL |
 | Week15 | Java vs. C++ |

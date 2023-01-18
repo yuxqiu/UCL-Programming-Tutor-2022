@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Index Page</title>
+</head>
+
+<body>
+    <h1>
+        {% if feeling == 'happy' %}
+        This Page Is Happy
+        {% elif feeling == 'sad' %}
+        This Page Is Sad
+        {% else %}
+        This Page Is Not Sure How It Feels
+        {% endif %}
+    </h1>
+</body>
+
+</html>
