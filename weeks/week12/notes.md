@@ -33,7 +33,7 @@
    4. Body
    5. Example
 
-        ```http
+        ```
         [Method] [Path] [Version of the Protocol]
         [Host]: [Domain]
         [Other Headers]
@@ -50,7 +50,7 @@
    6. Body
    7. Example
 
-        ```http
+        ```
         [Version] [Status Code] [Status Message]
         [Other Headers]
 
