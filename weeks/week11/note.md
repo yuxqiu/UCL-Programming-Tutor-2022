@@ -214,3 +214,10 @@
 ## References
 
 This week's material is from [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers). It contains only a small portion of the content discussed in the course. If you are interested in front-end development, you can take the entire course for free at coursera.
+
+
+## Additional Resources
+
+1. [CSS Selector Performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)
+2. [A website without any HTML (except for some meta tags)](https://no-ht.ml/)
+3. [The Surprising Things That CSS Can Animate](https://codersblock.com/blog/the-surprising-things-that-css-can-animate/)

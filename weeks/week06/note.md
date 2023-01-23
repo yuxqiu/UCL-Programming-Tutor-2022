@@ -126,3 +126,8 @@ fi
 
 echo "Everything went according to plan"
 ```
+
+## Additional Resources
+
+1. [Semantic Linefeed](https://rhodesmill.org/brandon/2012/one-sentence-per-line/)
+2. [Git Commands You Probably Do Not Need](https://myme.no/posts/2023-01-22-git-commands-you-do-not-need.html)
