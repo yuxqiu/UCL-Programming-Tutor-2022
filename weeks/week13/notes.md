@@ -10,6 +10,7 @@
 >
 > Bjarne Stroustrup, inventor of C++
 
+
 ### Brief History
 
 - C with classes
@@ -66,6 +67,7 @@ const std::string msg = "Hello World";
 - Benefits
 - Costs
 
+
 ### Pass string as a parameter
 
 > Related files: [overload.cc](./attachments/code/overload.cc)
@@ -81,6 +83,7 @@ void f(const std::string& s);
 - Overloaded Function
 - Overload Resolution
 
+
 ### IO
 
 > Related files: [io.cc](./attachments/code/io.cc)
@@ -90,6 +93,7 @@ void f(const std::string& s);
 - cerr
 - fstream
 - stringstream
+
 
 ### String Operations
 
@@ -101,6 +105,7 @@ void f(const std::string& s);
 - Search
 - Concatenation
 - Iterate (2 ways)
+
 
 ## OOP
 
@@ -115,6 +120,7 @@ void f(const std::string& s);
 - Destructor
 - Copy Constructor/Assignment
 
+
 ### Operator Overloading
 
 > Related files: [operator.cc](./attachments/code/operator.cc)
@@ -124,6 +130,7 @@ void f(const std::string& s);
 - Output to stream
 - `const`
     - `const` correctness
+
 
 ### Inheritance
 
@@ -135,6 +142,7 @@ void f(const std::string& s);
     - casting
 - `override` and `final`
 
+
 ## Template Programming
 
 > Related files: [template.cc](./attachments/code/template.cc)
@@ -143,6 +151,7 @@ A generic `Point` class
 
 - parameterized class and function
 - STL (Standard Template Library)
+
 
 ## Trivial
 
@@ -162,8 +171,8 @@ Supports Exception
 - Why `malloc` is not enough
 - `new`, `new []`, `delete`, and `delete[]`
 - Array: order of construction/destruction
-- Copy objects
 - RAII and Exception
+
 
 ### Revisiting Hello World
 
@@ -187,6 +196,7 @@ int main() {
 - Overloaded Function
 - IO
 - Operator Overload
+
 
 ## Reference
 
