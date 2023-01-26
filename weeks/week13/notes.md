@@ -167,6 +167,17 @@ Supports Exception
 
 ### Revisiting Hello World
 
+```c++
+#include <iostream>
+
+int main() {
+    // NRW
+    const std::string s = "Hello World";
+    std::cout << s << std::endl;
+    return 0;
+}
+```
+
 - Namespace
 - Template
 - OOP
