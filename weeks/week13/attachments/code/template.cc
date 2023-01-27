@@ -5,7 +5,7 @@ public:
   T m_x_;
   T m_y_;
 
-  //   NRW
+  // NRW
   Point(T x = 0, T y = 0) : m_x_(x), m_y_(y) {
     // write your function body
     m_x_ = x;

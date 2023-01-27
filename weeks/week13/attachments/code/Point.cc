@@ -12,7 +12,7 @@ public:
 
   ~Point() {}
 
-  //   Copy Constructor and Assignment
+  // Copy Constructor and Assignment
   Point(const Point &);
   Point &operator=(const Point &);
 };

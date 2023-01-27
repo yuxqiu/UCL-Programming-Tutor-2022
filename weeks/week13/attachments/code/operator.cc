@@ -9,14 +9,14 @@ private:
 public:
   Point(int x = 0, int y = 0) : m_x_(x), m_y_(y) {}
 
-  //   Return & to support chaining
+  // Return & to support chaining
   Point &operator+=(const Point &other) {
     m_x_ += other.m_x_;
     m_y_ += other.m_y_;
     return *this;
   }
 
-  //   remember the const correctness
+  // remember the const correctness
   bool operator==(const Point &other) const {
     return m_x_ == other.m_x_ && m_y_ == other.m_y_;
   }
