@@ -17,7 +17,7 @@
 | Week11 | [Frontend Basics](./weeks/week11/note.md) |
 | Week12 | [Backend Basics](./weeks/week12/notes.md) |
 | Week13 | [C++: Syntax](./weeks/week13/notes.md) |
-| Week14 | C++: STL Overview |
+| Week14 | [C++: STL Overview](./weeks/week14/notes.md) |
 | Week15 | C++: Abstract Machine |
 | Week16 | Rust: Can we be safer? |
 | Week17 | Algorithms: Dynamic Programming |

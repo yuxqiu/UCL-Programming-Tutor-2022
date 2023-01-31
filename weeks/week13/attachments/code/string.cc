@@ -26,7 +26,7 @@ int main() {
   }
   std::cout << std::endl;
 
-  // For-range loop
+  // For-range loop (since C++11)
   for (char c : s) {
     std::cout << c;
   }

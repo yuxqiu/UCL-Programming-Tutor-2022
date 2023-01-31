@@ -19,7 +19,7 @@
 - C++17
 - C++20
 
-The remaining notes focus on all versions up to and including C++17. For codes that are not recommended for real-world use, I will mark them with `NRW`.
+The remaining notes primarily focus on pre C++11. For codes that are not recommended for real-world use, I will mark them with `NRW`.
 
 
 ## Hello World
@@ -104,7 +104,7 @@ void f(const std::string& s);
 - Substring
 - Search
 - Concatenation
-- Iterate (2 ways)
+- Iterate (2 ways - since C++11)
 
 
 ## OOP
@@ -139,8 +139,8 @@ void f(const std::string& s);
 - public inheritance
 - virtual dispatch (compared with Java)
     - virtual destructor
-    - casting
-- `override` and `final`
+    - casting (since C++11)
+- `override` and `final` (since C++11)
 
 
 ## Template Programming

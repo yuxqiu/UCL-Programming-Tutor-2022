@@ -30,15 +30,15 @@ int main(void) {
 
   // given a base class pointer
   // we probably need to cast it back to the original type
-  // we could use dynamic casting
+  // we could use dynamic casting (since C++11)
   Derived *dptr = dynamic_cast<Derived *>(p);
   (void)(dptr);
 
-  // We could also use dynamic cast
+  // We could also use static cast (since C++11)
   Derived *dptr_static = static_cast<Derived *>(p);
   (void)(dptr_static);
 
-  //   And there are two other castings: const_cast, reinterpret_cast
+  //   And there are two other castings: const_cast, reinterpret_cast (since C++11)
   //   There are some differences between them.
 
   return 0;
