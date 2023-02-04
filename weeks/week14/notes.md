@@ -1,22 +1,21 @@
 # Week 14
 
+> all the code in this week is compiled with `-std=c++11`.
+
 ## Structure of STL
 
 ![Structure of STL](attachment/images/structure-stl.png)
 
-
 ## Containers
-
 
 ### Sequence Containers
 
 1. `std::vector`
    1. Sort Demo: `size`, `operator[]`
-   2. `push_back`
-   3. constructor
+   2. constructor
+   3. `push_back`
    4. clear
    5. `insert` and `erase`
-   6. resize
 2. `std::deque`
    1. Double-ended Queue
         ![Deque Structure](attachment/images/deque.png)
@@ -47,10 +46,11 @@
    4. insert, erase
    5. size, empty
 3. `std::unordered_set`
-   1. Hashing
-   2. insert, erase
-   3. size, empty...
-   4. Custom Type: `hash` and equality
+   1. A hashmap-based container
+   2. Hashing
+   3. insert, erase
+   4. size, empty...
+   5. Custom Type: `hash` and equality
 4. `std::unordered_map`
    1. Key-Value pair
    2. insert, erase
@@ -65,15 +65,15 @@
 
 1. Why Adaptor?
 2. `std::stack`
-   1. Based on vector
+   1. Based on vector by default
    2. `top`
    3. `push`, `pop`
 3. `std::queue`
-   1. Based on deque
+   1. Based on deque by default
    2. `front`, `back`
    3. `push`, `pop`
 4. `std::priority_queue`
-   1. Based on vector
+   1. Based on vector by default
    2. Application: heap sort
 
 
@@ -122,7 +122,7 @@
 2. `std::count`
 3. `_if`: `std::count_if`, `std::copy_if`
 4. `std::sort`
-5. `std::random_shuffle`
+5. `std::shuffle`
    1. How to design an efficient random shuffling algorithm?
    2. Key Property: Random
 6. `std::binary_search`, `std::lower_bound`, `std::upper_bound`
