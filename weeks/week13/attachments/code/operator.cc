@@ -41,11 +41,11 @@ int main() {
   int i = 0;
   (i += 10) += 10;
 
-  Point p = {1, 2}, p2 = {0, -1};
+  Point p(1, 2), p2(2, -1);
   p += p2;
   std::cout << p << std::endl;
 
-  const Point pa = {1, 2}, pb = {1, 2};
+  const Point pa(1, 2), pb(1, 2);
   std::cout << (pa == pb);
 
   return 0;

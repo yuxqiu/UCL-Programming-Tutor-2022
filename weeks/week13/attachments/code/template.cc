@@ -18,8 +18,8 @@ public:
 template <typename T> void f(T) {}
 
 int main() {
-  Point<int> p = {1, 2};
-  Point<double> pd = {1.5, 2.5};
+  Point<int> p(1, 2);
+  Point<double> pd(1.5, 2.5);
 
   f(p);
   f(pd);

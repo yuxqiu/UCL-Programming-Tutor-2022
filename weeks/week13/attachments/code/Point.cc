@@ -33,3 +33,5 @@ struct PointInC p1;
 
 // In C++
 Point p2;
+
+int main(){}

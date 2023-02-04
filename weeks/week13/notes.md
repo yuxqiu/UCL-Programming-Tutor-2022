@@ -21,6 +21,7 @@
 
 The remaining notes primarily focus on pre C++11. For codes that are not recommended for real-world use, I will mark them with `NRW`.
 
+For code, `inheritance.cc` and `string.cc` should be compiled with at least `-std=c++11`. The rest of the code is fully compatible with C++98.
 
 ## Hello World
 
