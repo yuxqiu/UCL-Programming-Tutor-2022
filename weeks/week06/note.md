@@ -58,9 +58,9 @@
     - Purpose of VCS
     - Git vs. SVN
 
-        ![](./attachments/image/vcs-1.png)
+        ![](./attachment/image/vcs-1.png)
 
-        ![](./attachments/image/vcs-2.png)
+        ![](./attachment/image/vcs-2.png)
 2. Brief Introduction to Git
     - Repositories and working copies
 3. [Model of Git](https://missing.csail.mit.edu/2020/version-control/)

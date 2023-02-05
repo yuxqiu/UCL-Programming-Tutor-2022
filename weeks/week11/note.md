@@ -10,7 +10,7 @@
    2. `<p>`
    3. `<br>`, `<hr>`
    4. Attributes
-      1. ![](./attachments/images/html-tags-rule.jpg)
+      1. ![](./attachment/images/html-tags-rule.jpg)
 
 3. Basic HTML Document Structure
    1. W3C web validator
@@ -100,25 +100,25 @@
    3. On `css` file (In real-life prefer this)
 
 7. Conflict Resolution
-   1. ![](attachments/images/css-conflict-resolution-1.jpg)
+   1. ![](attachment/images/css-conflict-resolution-1.jpg)
    2. Origin Precedence: the last declaration wins
    3. Merge: declarations are merged when no conflicts
    4. Inherit: declarations inherit from parent (conflicting declarations in children win)
 
-      ![](attachments/images/css-conflitc-resolution-2.jpg)
+      ![](attachment/images/css-conflitc-resolution-2.jpg)
 
    5. Specificity: Most specific selector combination wins
 
-      ![](attachments/images/css-specificity.jpg)
+      ![](attachment/images/css-specificity.jpg)
 
 8. The Box Model
-   1. ![](attachments/images/css-box-model.jpg)
+   1. ![](attachment/images/css-box-model.jpg)
    2. `box-sizing: border-box` (default is `content-box`) and width
    3. Cumulative Margin:
 
-      ![horizontal](attachments/images/css-cumulative-margin-1.jpg)
+      ![horizontal](attachment/images/css-cumulative-margin-1.jpg)
 
-      ![vertical](attachments/images/css-cumulative-margin-2.jpg)
+      ![vertical](attachment/images/css-cumulative-margin-2.jpg)
 
    4. Overflow
 
@@ -152,7 +152,7 @@
     5. Not to overlap boundary: otherwise, all the styles will be applied
     6. Responsive Design
 
-       ![](attachments/images/css-grid-responsive.jpg)
+       ![](attachment/images/css-grid-responsive.jpg)
 
 12. More to Explore
     1.  Styling Text
@@ -178,8 +178,8 @@
       3. Lexical Scope vs. Dynamic Scope (JS uses Lexical Scope)
    4. Scope Chain
       1. How JS looks for variables
-      2. ![](./attachments/images/js-scope-chain.jpg)
-      3. ![](./attachments/images/js-scope-chain-example.jpg)
+      2. ![](./attachment/images/js-scope-chain.jpg)
+      3. ![](./attachment/images/js-scope-chain-example.jpg)
    5. Execution Contexts: [JavaScript Execution Context – How JS Works Behind the Scenes](https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context)
    6. Differences between `var` and `let`
       1. Read the previous link about execution context first

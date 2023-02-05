@@ -71,7 +71,7 @@ const std::string msg = "Hello World";
 
 ### Pass string as a parameter
 
-> Related files: [overload.cc](./attachments/code/overload.cc)
+> Related files: [overload.cc](./attachment/code/overload.cc)
 
 ```c++
 // NRW
@@ -87,7 +87,7 @@ void f(const std::string& s);
 
 ### IO
 
-> Related files: [io.cc](./attachments/code/io.cc)
+> Related files: [io.cc](./attachment/code/io.cc)
 
 - cout
 - cin
@@ -98,7 +98,7 @@ void f(const std::string& s);
 
 ### String Operations
 
-> Related files: [string.cc](./attachments/code/string.cc)
+> Related files: [string.cc](./attachment/code/string.cc)
 
 - Documentation
 - Indexing
@@ -112,7 +112,7 @@ void f(const std::string& s);
 
 ### Representing points
 
-> Related files: [Point.cc](./attachments/code/Point.cc)
+> Related files: [Point.cc](./attachment/code/Point.cc)
 
 - `struct` and `class`
 - Access control
@@ -124,7 +124,7 @@ void f(const std::string& s);
 
 ### Operator Overloading
 
-> Related files: [operator.cc](./attachments/code/operator.cc)
+> Related files: [operator.cc](./attachment/code/operator.cc)
 
 - Add two points?
 - Equality
@@ -135,7 +135,7 @@ void f(const std::string& s);
 
 ### Inheritance
 
-> Related files: [inheritance.cc](./attachments/code/inheritance.cc)
+> Related files: [inheritance.cc](./attachment/code/inheritance.cc)
 
 - public inheritance
 - virtual dispatch (compared with Java)
@@ -146,7 +146,7 @@ void f(const std::string& s);
 
 ## Template Programming
 
-> Related files: [template.cc](./attachments/code/template.cc)
+> Related files: [template.cc](./attachment/code/template.cc)
 
 A generic `Point` class
 
@@ -158,7 +158,7 @@ A generic `Point` class
 
 ### Exception
 
-> Related files: [exception.cc](./attachments/code/exception.cc)
+> Related files: [exception.cc](./attachment/code/exception.cc)
 
 Supports Exception
 - try
@@ -167,7 +167,7 @@ Supports Exception
 
 ### Memory Management
 
-> Related files: [memory.cc](./attachments/code/memory.cc)
+> Related files: [memory.cc](./attachment/code/memory.cc)
 
 - Why `malloc` is not enough
 - `new`, `new []`, `delete`, and `delete[]`

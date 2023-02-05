@@ -170,7 +170,7 @@ The following contents are only for Unix-like OS. Some of them are exclusively f
    - How does `traceroute` work?
 2. DNS and its lookup rules
    - What happens when we visit a website?
-   - Recursive Lookup ![](./attachments/image/dns.png) (from [AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW])
+   - Recursive Lookup ![](./attachment/image/dns.png) (from [AUTHORITATIVE VS RECURSIVE DNS: WHAT YOU NEED TO KNOW])
    - `dig` with example
 3. hosts file
    - What is `hosts`?
