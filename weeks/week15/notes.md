@@ -140,3 +140,5 @@ Some discussions about the C/C++ Abstract Machine and Standard:
 
 - [C was not created as an abstract machine](https://news.ycombinator.com/item?id=34623007)
 - [Undefined behavior, and the Sledgehammer Principle](https://thephd.dev/c-undefined-behavior-and-the-sledgehammer-guideline)
+- When the end of the duration of a region of storage is reached, the values of all pointers representing the address of any part of that region of storage become invalid pointer values (6.8.2). Indirection through an invalid pointer value and passing an invalid pointer value to a deallocation function have undefined behavior. Any other use of an invalid pointer value has implementation-defined behavior. Some implementations might define that copying an invalid pointer value causes a system-generated runtime fault. Can you explain [this](https://github.com/rust-lang/rust/issues/107975#issuecomment-1430429347)? The discussion here about a strange rust behavior is also interesting.
+    - [Pointers Are Complicated II, or: We need better language specs](https://www.ralfj.de/blog/2020/12/14/provenance.html)
