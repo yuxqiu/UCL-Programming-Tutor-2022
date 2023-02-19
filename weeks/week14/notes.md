@@ -85,17 +85,19 @@
    1. **Dereferencing** the iterator to read a value: `operator*`
    2. **Advancing** the iterator from one position to the next: `operator++`
    3. **Comparing** two iterators for equality: `operator==`
-4. Types of Iterator
+4. Types of Iterator (with their minimum requirements)
    1. InputIterator: single-pass, read-only
    2. OutputIterator: single-pass, write-only
-   3. ForwardIterator: multi-pass, read/write, uni-direction
-   4. BidirectionalIterator: multi-pass, read/write, multi-direction
-   5. RandomIterator: multi-pass, read/write, random pos
+   3. ForwardIterator: multi-pass, read, uni-direction
+   4. BidirectionalIterator: multi-pass, read, multi-direction
+   5. RandomIterator: multi-pass, read, random pos
 5. Const Iterator
 6. Iterator Adaptor
    1. `std::back_inserter`
    2. `std::ostream_iterator`
    3. Turns out to be useful when we know Algorithm
+7. Additional Resources
+   1. [C++20 Iterators](https://en.cppreference.com/w/cpp/iterator/input_or_output_iterator)
 
 
 ## Functor
