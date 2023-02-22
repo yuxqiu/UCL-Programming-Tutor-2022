@@ -19,7 +19,7 @@
 | Week13 | [C++: Syntax](./weeks/week13/notes.md) |
 | Week14 | [C++: STL Overview](./weeks/week14/notes.md) |
 | Week15 | [C++: Abstract Machine](./weeks/week15/notes.md) |
-| Week16 | Rust: Can we be safer? |
+| Week16 | [Rust: Can we be safer?](./weeks/week16/notes.md) |
 | Week17 | Algorithms: Dynamic Programming |
 | Week18 | Algorithms: Greedy |
 | Week19 | `Special` |
