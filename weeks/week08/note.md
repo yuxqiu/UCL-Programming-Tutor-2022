@@ -36,3 +36,9 @@
     - `connect`
 4. Get address
     - `getaddrinfo`
+
+
+## Additional Resources
+
+1. [Computer Networking Introduction: Ethernet and IP (Heavily Illustrated)](https://iximiuz.com/en/posts/computer-networking-101/)
+2. [Email explained from first principles](https://explained-from-first-principles.com/email/)
