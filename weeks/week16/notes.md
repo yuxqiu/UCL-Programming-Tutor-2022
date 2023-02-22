@@ -60,7 +60,10 @@
       1. [String doc](https://doc.rust-lang.org/std/string/struct.String.html)
    3. Return a reference
       1. Dangling Reference
-      2. Lifetime Annotation
+      2. **Lifetime** Annotation
+4. Rationale
+   1. Why only 1 mutable ref
+   2. Why many immutable refs
 
 
 ### Smart Pointers
@@ -70,10 +73,11 @@
    2. `shared_ptr`
    3. `weak_ptr`
 2. In Rust, we have these (with examples)
-   1. `Box`
-   2. `Rc`
-   3. `Weak`
-   4. `Arc`
+   1. `Box`: [Using Box<T> to Point to Data on the Heap](https://doc.rust-lang.org/stable/book/ch15-01-box.html)
+   2. `Rc`: [Rc<T>, the Reference Counted Smart Pointer](https://doc.rust-lang.org/stable/book/ch15-04-rc.html)
+   3. `RefCell`: [RefCell<T> and the Interior Mutability Pattern](https://doc.rust-lang.org/stable/book/ch15-05-interior-mutability.html)
+   4. `Weak`: [Reference Cycles Can Leak Memory](https://doc.rust-lang.org/stable/book/ch15-06-reference-cycles.html)
+   5. `Arc` (for multithreading)
 
 
 ### A Glimpse at Struct and Trait
@@ -104,11 +108,12 @@
    1. Define your generic type
    2. Define your generic type bounded by Trait
    3. `dyn`
-4. Multi-Threading (`Send` and `Sync` Trait are essential)
+4. Type System
+5. Multi-Threading (`Send` and `Sync` Trait are essential)
    1. [Send and Sync](https://stackoverflow.com/questions/59428096/understanding-the-send-trait)
-5. When does move fail? (Check References-2)
+6. When does move fail? (Check References-2)
    1. [Pin](https://doc.rust-lang.org/std/pin/index.html)
-6. How does ownership/borrowing model benefit the multi-threading? (Check Reference-3)
+7. How does ownership/borrowing model benefit the multi-threading? (Check Reference-3)
 
 
 ### References
