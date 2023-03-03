@@ -221,3 +221,4 @@ This week's material is from [HTML, CSS, and Javascript for Web Developers](http
 1. [CSS Selector Performance](https://blogs.windows.com/msedgedev/2023/01/17/the-truth-about-css-selector-performance/)
 2. [A website without any HTML (except for some meta tags)](https://no-ht.ml/)
 3. [The Surprising Things That CSS Can Animate](https://codersblock.com/blog/the-surprising-things-that-css-can-animate/)
+4. [Color Formats in CSS](https://www.joshwcomeau.com/css/color-formats/)
