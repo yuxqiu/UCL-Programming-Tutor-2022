@@ -76,7 +76,7 @@ I will refer to [Core C++ 2019 :: Bryce Adelstein :: The C++ Execution Model](ht
 1. Sequence Before
    1. Definition: Asymmetric, Transitive
    2. Applications (rules about expressions ordering)
-2. Intermediate Sequence
+2. Indeterminately Sequence
 3. Un-sequenced
    1. Example
 
