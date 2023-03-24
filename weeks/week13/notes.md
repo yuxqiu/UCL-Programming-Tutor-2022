@@ -202,3 +202,7 @@ int main() {
 ## Reference
 
 This work was largely inspired by the CS106/CS106L course readings. If you want to learn more about C++, you can start here.
+
+## Additional Resources
+
+1. [Why C++ Sails When the Vasa Sank](https://www.youtube.com/watch?&v=ltCgzYcpFUI)
