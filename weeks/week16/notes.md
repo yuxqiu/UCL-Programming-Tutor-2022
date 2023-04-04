@@ -124,3 +124,9 @@ The design of this note is based on:
    1. There are some errors, but there are many concepts that deserve your attention.
 3. [Rust: A unique perspective](https://limpet.net/mbrubeck/2019/02/07/rust-a-unique-perspective.html)
 4. [CS 110L: Safety in Systems Programming](https://reberhardt.com/cs110l/spring-2020/)
+
+
+### Additional Resources
+
+1. [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
+2. [Programming Rust, 2nd Edition](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
