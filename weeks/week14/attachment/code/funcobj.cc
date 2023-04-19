@@ -15,7 +15,7 @@ int main(void) {
   // Suppose we have a more complicated condition
   // E.g. Number of items equal to 2 or equal to 3
   // DO we need to create a free function for every call?
-  // We could use functor
+  // We could use function object
 
   // Yes. You can create a struct inside a function in C/C++
   struct EqualToAOrB {

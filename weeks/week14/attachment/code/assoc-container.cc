@@ -114,7 +114,7 @@ public:
 namespace std {
 // This is called function object
 // They overload the operator(), which allows them to be called as a function
-// We will talk more about this in functor section.
+// We will talk more about this in function object section.
 template <> struct hash<CustomTypeForUnorderedSetMap> {
   std::size_t operator()(const CustomTypeForUnorderedSetMap &obj) const {
     return hash<int>()(obj.i);

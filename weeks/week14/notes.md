@@ -100,7 +100,7 @@
    1. [C++20 Iterators](https://en.cppreference.com/w/cpp/iterator/input_or_output_iterator)
 
 
-## Functor
+## Function Object
 
 > count_if example: count the number of items that make `Pred == true`
 

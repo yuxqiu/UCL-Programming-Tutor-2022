@@ -23,7 +23,7 @@ int main(void) {
   std::cout << std::accumulate(nums.cbegin(), nums.cend(), 0) << std::endl;
 
   // count the number of items equal to some value of type T: std::count
-  // as shown before in functor.cc
+  // as shown before in funcobj.cc
 
   // std::copy
   // as shown before in iterator.cc
