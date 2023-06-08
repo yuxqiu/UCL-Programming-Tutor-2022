@@ -3,7 +3,7 @@
 ## HTML
 
 1. What is HTML
-   1. > Hyper Text Markup Language. Hypertext is text which contains links to other texts. One document points to another document which points to a bunch of other documents...Markup means to mark something up, to annotate. It's really all about content, and you want to annotate the content to tell the browser what this content is. Language basically implies that it has its own syntax meaning there's a right and a wrong way to code it.
+   1. > Hyper Text Markup Language. Hypertext is text which contains links to other texts. One document points to another document which points to a bunch of other documents... Markup means to mark something up, to annotate. It's really all about content, and you want to annotate the content to tell the browser what this content is. Language basically implies that it has its own syntax meaning there's a right and a wrong way to code it.
 
 2. HTML Tags
    1. Opening and Closing tags
@@ -23,14 +23,14 @@
    6. "Renders or interprets the HTML code sequentially from top to bottom"
 
 4. HTML Content Models
-   1. > The term content model refers to the full behavior the browser applies to the elements belonging to that content model, and to the nesting rules of those elements. In other words, which elements are allowed to be nested inside which other elements. All elements fall into basically two categories under the traditional content model structure: block level elements or inline elements. Block level elements render to begin on the new line by default. So what that means is every time you specify a block-level element in HTML, the browser will automatically place that element on a new line in the flow of the document. **Block-level elements are allowed to contain inline or other block-level elements within them.** This is in contrast to inline elements, which render on the same line by default. Which means if you put a whole bunch of inline elements next to each other, they will all be going on on the same line, as if there is no new line character present. Inline elements also have a restriction that they can only contain other in line elements.
+   1. > The term content model refers to the full behavior the browser applies to the elements belonging to that content model, and to the nesting rules of those elements. In other words, which elements are allowed to be nested inside which other elements. All elements fall into basically two categories under the traditional content model structure: block level elements or inline elements. Block level elements render to begin on the new line by default. So what that means is every time you specify a block-level element in HTML, the browser will automatically place that element on a new line in the flow of the document. **Block-level elements are allowed to contain inline or other block-level elements within them.** This is in contrast to inline elements, which render on the same line by default. Which means if you put a bunch of inline elements next to each other, they will all be going on the same line, as if there is no new line character present. Inline elements also have a restriction that they can only contain other inline elements.
    2. `<div>` tag
       1. > The div element stands for division. It is the most generic block-level element.
    3. `<span>` tag
       1. > The span element stands for span. It is the most generic inline element.
    4. Demo
-      1. > Even though span is an inline element, since DIV 2 requires that it be on it's own line. It pushes the next inline element to it's own line as well. And this is exactly what happens with DIV 3.
-      2. > The new line characters that follow the div tags make absolutely no difference to the html page and how it renders.
+      1. > Even though span is an inline element, since DIV 2 requires that it be on its own line. It pushes the next inline element to its own line as well. And this is exactly what happens with DIV 3.
+      2. > The new line characters that follow the div tags make absolutely no difference to the HTML page and how it renders.
 
 5. Heading Elements
    1. `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
@@ -86,7 +86,7 @@
 4. Combining selector
    1. Element with class selector `p.className` (every `<p>` with class name `className`)
    2. Child Selector `article > p` (every `<p>` directly inside `<article>`)
-   3. Descendent Selector `article p` (every `<p>` inside `<article>`)
+   3. Descendant Selector `article p` (every `<p>` inside `<article>`)
 
 5. Pseudo-class selector
    1. `selector:pseudo-class {}`
@@ -161,15 +161,15 @@
     4.  Bootstrap
 
 
-## Javascript
+## JavaScript
 
-1. What is Javascript
+1. What is JavaScript
 
 2. Where to put the script
    1. `<script>`
    2. [Differences between href and src](https://stackoverflow.com/questions/3395359/difference-between-src-and-href)
 
-3. Define variables, Functions and Scope
+3. Define variables, Functions, and Scope
    1. `var`
    2. `function`
    3. Scope
@@ -195,7 +195,7 @@
    3. Prototype
    4. `this`
 
-6. Array, Closure and Namespaces
+6. Array, Closure, and Namespaces
    1. Array
    2. Closures
    3. IIFE
@@ -206,14 +206,14 @@
 1. Summary
    1. HTML = "skeleton"; CSS = "skin"; JS = interaction
 2. A brief overview of web dev (three stages)
-   1. Backend render the page (php...)
-   2. Frontend requests backend API and renders the page at the frontend (react, vue, angular... + some backend services)
+   1. Backend render the page (PHP...)
+   2. Frontend requests backend API and renders the page at the frontend (react, Vue, angular... + some backend services)
    3. Frontend requests + some server-side rendering (next.js...)
 
 
 ## References
 
-This week's material is from [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers). It contains only a small portion of the content discussed in the course. If you are interested in front-end development, you can take the entire course for free at coursera.
+This week's material is from [HTML, CSS, and JavaScript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers). It contains only a small portion of the content discussed in the course. If you are interested in front-end development, you can take the entire course for free at Coursera.
 
 
 ## Additional Resources

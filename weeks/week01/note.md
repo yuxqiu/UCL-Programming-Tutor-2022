@@ -56,7 +56,7 @@
 
 1. How to access the materials?
 2. Absence Policy
-   - There are no absent policy!
+   - No absence policy!
 3. How should you use discord?
 4. Something about "the messages" in Discord
    - Exchangeable Image File Format

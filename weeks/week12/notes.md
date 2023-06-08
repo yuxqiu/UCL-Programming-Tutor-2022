@@ -7,7 +7,7 @@
 2. Client and Server
 3. Text-based protocol
    1. simple and extensible
-4. An example of a HTTP 1.1 request
+4. An example of an HTTP 1.1 request
 
     ```http
     GET / HTTP/1.1
@@ -15,7 +15,7 @@
     Connection: close
 
     ```
-5. An example of a HTTP 1.1 response
+5. An example of an HTTP 1.1 response
 
     ```
     HTTP/1.1 200 OK
@@ -73,7 +73,7 @@
    1. Any language with networking support can actually be the backend
    2. People most commonly use Java, JavaScript, PHP, Python
 
-3. Demo: JavaScript + NodeJs + Koa2
+3. Demo: JavaScript + NodeJS + Koa2
    1. How to use `npm`
    2. Directory Structure
    3. Middleware

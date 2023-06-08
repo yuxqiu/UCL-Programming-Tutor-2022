@@ -4,7 +4,7 @@
 
 ## Abstract Machine
 
-> In computer science, an abstract machine is a theoretical model that allows for a detailed and precise analysis of how a computer system functions. Abstract machines vary from literal machines in that they are expected to perform correctly and independently of hardware. Abstract machines are "machines" because they allow step-by-step execution of programmes; they are "abstract" because they ignore many aspects of actual (hardware) machines. A typical abstract machine consists of a definition in terms of **input, output, and the set of allowable operations** used to turn the former into the latter. They can be used for purely theoretical reasons as well as models for real-world computer systems. In the theory of computation, abstract machines are often used in thought experiments regarding computability or to analyse the complexity of algorithms. \[1\]
+> In computer science, an abstract machine is a theoretical model that allows for a detailed and precise analysis of how a computer system functions. Abstract machines vary from literal machines in that they are expected to perform correctly and independently of hardware. Abstract machines are "machines" because they allow step-by-step execution of programs; they are "abstract" because they ignore many aspects of actual (hardware) machines. A typical abstract machine consists of a definition in terms of **input, output, and the set of allowable operations** used to turn the former into the latter. They can be used for purely theoretical reasons as well as models for real-world computer systems. In the theory of computation, abstract machines are often used in thought experiments regarding computability or to analyse the complexity of algorithms. \[1\]
 
 - Definition
   - Machine
@@ -13,8 +13,8 @@
   - Provide an intermediate language stage for compilation
   - Bridge the gap between the high level of a programming language and the low level of a real machine
   - Simplifies the presentation and teaching of the principles of programming language implementations
-  - The introduction of layers of abstraction increases maintainability and portability and it allows for design-by-contract
-  - Abstract machines have been successful for the design of implementations of languages that do not ﬁt the “Von-Neumann computer” well
+  - The introduction of layers of abstraction increases maintainability and portability, and it allows for design-by-contract
+  - Abstract machines have been successful for the design of implementations of languages that do not fit the “von Neumann computer” well
   - Facilitate to prove the correctness of code generation, program analyses and transformations
 
 
@@ -100,7 +100,7 @@ I will refer to [Core C++ 2019 :: Bryce Adelstein :: The C++ Execution Model](ht
    1. Asymmetric, Transitive
 2. Happens Before
    1. Combining Sequence Before and Synchronize With
-   2. Application: basic ordering when we describe the behaviors of multi-threaded program
+   2. Application: basic ordering when we describe the behaviors of multithreaded program
 
 ### Execution Steps
 

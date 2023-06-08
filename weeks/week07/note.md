@@ -34,7 +34,7 @@
 
 1. clang-tidy
     - `clang-tidy filename`
-    - .clang-tidy
+    - `.clang-tidy`
 
 ## Profiling
 
@@ -56,7 +56,7 @@
     - Address Sanitizer (detect memory issue: leaks, dangling pointers)
     - Undefined Behavior Sanitizer
     - Thread Sanitizer (useful for detecting data races)
-2. `leaks` in MacOS
+2. `leaks` in macOS
     - MallocStackLogging
 3. `valgrind` in Linux
 
@@ -64,8 +64,8 @@
 
 1. `gcov` + `lcov` + `genhtml`
 2. `kcov`
-    - a much easier-to-use code coverage report generator
-    - but it's very slow compared with the tools listed above ([at least in MacOS](https://github.com/SimonKagstrom/kcov/issues/356))
+    - a much easier-to-use code coverage report generator,
+    - but it's very slow compared with the tools listed above ([at least in macOS](https://github.com/SimonKagstrom/kcov/issues/356))
 
 ## Benchmarking
 

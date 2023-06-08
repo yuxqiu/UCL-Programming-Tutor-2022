@@ -28,7 +28,7 @@
    2. Parameters
    3. Return
    4. Expression and Statement
-      1. Correct an mistake I made in last week
+      1. Correct a mistake I made in last week
 
 6. [Control Flow](https://doc.rust-lang.org/stable/book/ch03-05-control-flow.html)
    1. `if`
@@ -100,7 +100,7 @@
    1. Optional
    2. Result
    3. Enum Type with Value
-2. Object Oriented Rust (Refer to Reference-4 for more details.)
+2. Object-Oriented Rust (Refer to Reference-4 for more details.)
    1. Composition
    2. Can you implement your own linked list (singly and doubly) in Rust?
       People often claim that it's hard to implement the Linked List in Rust given the ownership model.

@@ -1,6 +1,6 @@
 # Week 14
 
-> all the code in this week is compiled with `-std=c++11`.
+> All the code in this week is compiled with `-std=c++11`.
 
 ## Structure of STL
 
