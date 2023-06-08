@@ -130,3 +130,8 @@ The design of this note is based on:
 
 1. [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
 2. [Programming Rust, 2nd Edition](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/)
+3. [Rust for "modern" C++ devs](http://venge.net/graydon/talks/RustForModernCPPDevs.pdf)
+    - Provides a very quick and comprehensive overview of Rust for modern C++ developers
+    - Compares and contrasts the features of Rust and C++
+    - Introduces you to the basic language constructs of Rust and the concepts of memory safety, ownership, and borrow checking
+    - Links to various crates and resources for interested developers
