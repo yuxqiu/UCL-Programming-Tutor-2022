@@ -135,3 +135,4 @@ The design of this note is based on:
     - Compares and contrasts the features of Rust and C++
     - Introduces you to the basic language constructs of Rust and the concepts of memory safety, ownership, and borrow checking
     - Links to various crates and resources for interested developers
+4. [Rust Crash Course](https://cs162.org/static/lectures/rust-full.html#1)
