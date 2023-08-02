@@ -79,7 +79,7 @@
    3. Middleware
    4. Koa Router
 
-4. Demo: Python + Flash
+4. Demo: Python + Flask
    1. Minimal Setup
    2. Abstractions: Routers and `flask`
       1. [Python Decorator](https://realpython.com/primer-on-python-decorators/)
